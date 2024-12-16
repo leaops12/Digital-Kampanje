@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HamarTech</title>
+    <link rel="stylesheet" href="MesseStyles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="hero">
+        <nav>
+            <img src="TilNettsiden/HvitHamarTechLiten.png" class="logo"/>
+            <img src="TilNettsiden/HamarKommuneLiten.png" class="logoo"/>
+            <ul>
+                <li><a href="Index.html">Hjem</a></li>
+                <li class="dropdown">
+                    <a href="Messe2025.html">Messe 2025</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Aktiviteter.html">Aktiviteter</a></li>
+                        <li><a href="ArbeidFraMessen.html">Arbeid Fra Messen</a></li>
+                        <li><a href="Spill&Premier2025.html">Spill&Premier 2025</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="Spill&Premier2025.html">Spill&Premier</a>
+                    <ul class="dropdown-content">
+                        <li><a href="Premieutdeling.html">Premieutdeling</a></li>
+                        <li><a href="Spill.html">Spill</a></li>
+                        <li><a href="Kurs.html">Kurs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="OmOss.html">Om Oss</a>
+                    <ul class="dropdown-content">
+                        <li><a href="HvemErVi.html">Hvem er vi?</a></li>
+                        <li><a href="PartnerneVåre.html">Partnerne Våre</a></li>
+                        <li><a href="AndreArrangement.html">Andre Arrangementer</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Studier</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Data- og IT-studier</a></li>
+                        <li><a href="#">Ingeniør Studier</a></li>
+                        <li><a href="#">Andre Studier</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="main-button">Logg Inn/Registrer</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <h1 class="hero-text">Messe Hamar<hr>2025</h1>
+    </div>
+    <div class="new-section">
+        <div class="new-overlay"></div>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="TilNettsiden/Blender.jpg" alt="Image 1">
+                    <p>På Messen i 2025 så skal det være diverse kurs. 
+                        <br>
+                        Blender og Database er hovedkursene i år.
+                        <br>
+                        Der kan man velge vanskelighetsgrad. 
+                    </p>
+                    <div class="button-container">
+                        <a href="Kurs.html" class="main-buttonn">Les Mer om Kurs</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="TilNettsiden/GamingStall.jpg" alt="Image 2">
+                    <p>Rundt på messen vil det være boder og steder.
+                        <br>
+                        Noen kan du få hjelp med å lære kurs,
+                        <br>
+                        andre kan du samle inn poeng på og så kan bruke på nettsiden.
+                        <br>
+                        Det vil også være noen matboder hvor du kan kjøpe deg mat. 
+                    </p>
+                    <div class="button-container">
+                        <a href="Spill&Premier2025.html" class="main-buttonn">Les Mer om Spill&Premier</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="TilNettsiden/gavekort.webp" alt="Image 3">
+                    <p>På hovedaktivitetene vil det være premier for aktiviteten.
+                        <br>
+                        Man kan stemme her på nettsiden på din favoritt fra en aktivitet
+                        <br>
+                        så kan man vinne diverse premier som gavekort.
+                    </p>
+                    <div class="button-container">
+                        <a href="Premieutdeling.html" class="main-buttonn">Les Mer om Premier</a>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <script src="slider.js"></script>
+    </div>
+</body>
+</html>
